@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #143041;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #214F5F;
+    border-radius: 5px;
+}
+
+.content {
+    margin-top: 75px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin-left: 120px;
+}
+
+.content table {
+    width: 80%;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 60px;
+	color: #2C3E50;
+}
+
+.content th, .content td {
+    padding: 10px;
+    border: 1px solid #214F5F;
+}
+
+th {
+    background-color: #143041;
+    color: white;
+    font-weight: bold;
+}
+
+.content td {
+    background-color: #0C0F1E; 
+    color: white;
+}
+
+.table1 th, .table1 td {
+    border: 1px solid black;
+    padding: 20px;
+	color: white;
+	box-shadow: 0px 0px 8px white;
+}
+
+.table2 th, .table2 td {
+    border: 1px solid black;
+    padding: 20px;
+	color: white;
+	box-shadow: 0px 0px 8px white;
+}
+
+.table3 th, .table3 td {
+    border: 1px solid black;
+    padding: 20px;
+	color: white;
+	box-shadow: 0px 0px 8px white;
+}
+
+.table4 th, .table4 td {
+    border: 1px solid black;
+    padding: 20px;
+	color: white;
+	box-shadow: 0px 0px 8px white;
+}
+
+.table5 th, .table5 td {
+    border: 1px solid black;
+    padding: 20px;
+	color: white;
+	box-shadow: 0px 0px 8px white;
+}
+
+
+.table1 .head, .table2 .head,
+.table3 .head, .table4 .head,
+.table5 .head {
+    color: rgb(180, 210, 235);
+    font-size: 25px;
+}
+
+.table1 td, .table2 td,
+.table3 td, .table4 td,
+.table5 td  {
+    background-color: rgba(145, 145, 145, 0.27);
+}
+
+.table4 img {
+    width: 700px;
+}
+
+td.values {
+    text-align: left;
+}
+
+td {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+

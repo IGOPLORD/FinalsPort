@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+	background-image: url("zxc.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #143041;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #214F5F;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    margin-top: 100px;
+	
+	
+}
+
+.left-div {
+    flex: 1;
+    background-color: #3a5b67;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 250px;
+}
+
+.right-div {
+    width: 900px;
+    height: 810px;
+    background-color: #3a5b678a;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+
+iframe {
+    width: 900px;
+    height: 810px;
+}
+
+h1 {
+    color: darkblue;
+    line-height: 30px;
+}
+
+.left-div .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.left-div .column {
+    flex: 1;
+    padding: 0 10px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.left-div h3,
+.left-div p {
+    line-height: 30px;
+    text-align: left;
+}

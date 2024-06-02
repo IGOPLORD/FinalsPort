@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #143041;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: #214F5F;
+    border-radius: 5px;
+}
+
+.content {
+    margin-top: 75px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin:auto;
+    margin-top: 100px;
+	color: blue;
+}
+
+.info {
+    width: 800px;
+    height: 450px;
+    background-color: #404a7d4f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.info2 {
+    width: 800px;
+    height: 250px;
+    background-color: #404a7d4f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.info3 {
+    width: 800px;
+    height: 400px;
+    background-color: #404a7d4f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.info4 {
+    width: 800px;
+    height: 300px;
+    background-color: #404a7d4f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.info5 {
+    width: 800px;
+    height: 400px;
+    background-color: #404a7d4f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+li {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+ol.tI {
+    padding-left: 30px;
+    color: darkblue;
+	
+}
+
+ol.ta {
+    padding-left: 30px;
+    color: white;
+}
+
+ol.t1 {
+    padding-left: 30px;
+    
+}
+
+ul.tI {
+    padding-left: 30px;
+    color: darkblue;
+}
+
+ul.ta {
+    padding-left: 30px;
+    color: white;
+}
+
+ul.t1 {
+    padding-left: 30px;
+    color: white;
+
+}
+
+dt {
+    padding-left: 30px;
+    color: darkblue; 
+    text-align: left; 
+    line-height: 30px;
+}
+
+dd {
+    padding-left: 30px;
+    color: white; 
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 10px;
+}

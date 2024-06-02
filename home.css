@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: black;
+    color: white; 
+    font-family: Arial, sans-serif; 
+	background-image: url("qwerty.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #143041;
+    z-index: 1000;
+    border-bottom: 1px solid white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+	
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px; 
+}
+
+.navbar ul li a:hover {
+    background-color: #214F5F;
+
+    border-radius: 5px; 
+}
+
+/* Styling the content */
+.content {
+    margin-top: 100px;
+    padding: 20px; 
+    align-items: center;
+	color: #2C3E50;
+}
+
+.content h1{
+    font-size: 40px;
+	color: #2C3E50;
+}
+
+.content h1,
+.content p {
+    padding-left: 50px;
+    letter-spacing: 1px;
+    margin-right: 200px;
+    text-align: justify;
+    line-height: 30px;
+	color: #2C3E50;
+}
+
+.janiel {
+    color: #191970; 
+}
+
+.pur {
+   color: #191970;
+}
+
+.content h3 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+}
+
+.homeimg img {
+    width: 600px;
+    height: auto;
+    margin-left: 100px;
+	border-radius: 75%;
+}
+
+.content h3{
+    padding-left: 50px;
+}
